@@ -43,6 +43,7 @@ __exportStar(require("./filter-type"), exports);
 __exportStar(require("./order-item-status"), exports);
 __exportStar(require("./payment-method-type"), exports);
 __exportStar(require("./appointment-status"), exports);
+__exportStar(require("./notification-type"), exports);
 __exportStar(require("./amount-type"), exports);
 __exportStar(require("./filter-operator"), exports);
 __exportStar(require("./filter-condition"), exports);

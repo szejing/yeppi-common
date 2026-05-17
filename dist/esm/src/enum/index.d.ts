@@ -25,6 +25,7 @@ export * from './filter-type';
 export * from './order-item-status';
 export * from './payment-method-type';
 export * from './appointment-status';
+export * from './notification-type';
 export * from './amount-type';
 export * from './filter-operator';
 export * from './filter-condition';

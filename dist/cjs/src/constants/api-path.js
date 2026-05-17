@@ -18,6 +18,7 @@ exports.API_PATH = {
     SETTINGS: 'settings',
     CRM_USERS: 'crm-users',
     ORDERS: 'orders',
+    NOTIFICATIONS: 'notifications',
     SALES: 'sales',
     SUMM_ORDERS: 'summ-orders',
     SUMM_SALES: 'summ-sales',

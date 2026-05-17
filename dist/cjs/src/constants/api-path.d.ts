@@ -15,6 +15,7 @@ export declare const API_PATH: {
     SETTINGS: string;
     CRM_USERS: string;
     ORDERS: string;
+    NOTIFICATIONS: string;
     SALES: string;
     SUMM_ORDERS: string;
     SUMM_SALES: string;
