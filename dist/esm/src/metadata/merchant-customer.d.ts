@@ -4,4 +4,6 @@ export type MerchantCustomerMetadata = {
     cancelled_orders: number;
     refunded_orders: number;
     completed_orders: number;
+    first_order_date: Date;
+    last_order_date: Date;
 };
