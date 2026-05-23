@@ -1,1 +1,1 @@
-{"version":3,"file":"merchant-customer.d.ts","sourceRoot":"","sources":["../../../../src/metadata/merchant-customer.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,wBAAwB,GAAG;IACtC,WAAW,EAAE,MAAM,CAAC;CACpB,CAAC"}
+{"version":3,"file":"merchant-customer.d.ts","sourceRoot":"","sources":["../../../../src/metadata/merchant-customer.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,wBAAwB,GAAG;IACtC,WAAW,EAAE,MAAM,CAAC;IACpB,cAAc,EAAE,MAAM,CAAC;IACvB,gBAAgB,EAAE,MAAM,CAAC;IACzB,eAAe,EAAE,MAAM,CAAC;IACxB,gBAAgB,EAAE,MAAM,CAAC;CACzB,CAAC"}
