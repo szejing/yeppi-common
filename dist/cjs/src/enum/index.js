@@ -49,3 +49,4 @@ __exportStar(require("./filter-operator"), exports);
 __exportStar(require("./filter-condition"), exports);
 __exportStar(require("./subs-duration"), exports);
 __exportStar(require("./commission-type"), exports);
+__exportStar(require("./customer-insight"), exports);

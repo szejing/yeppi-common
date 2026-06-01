@@ -33,3 +33,4 @@ export * from './filter-operator';
 export * from './filter-condition';
 export * from './subs-duration';
 export * from './commission-type';
+export * from './customer-insight';

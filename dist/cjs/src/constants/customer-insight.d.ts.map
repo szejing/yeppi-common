@@ -1,0 +1,1 @@
+{"version":3,"file":"customer-insight.d.ts","sourceRoot":"","sources":["../../../../src/constants/customer-insight.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,uBAAuB,EAAE,kBAAkB,EAAE,uBAAuB,EAAE,MAAM,0BAA0B,CAAC;AAEhH,MAAM,MAAM,qBAAqB,GAAG;IACnC,GAAG,EAAE,kBAAkB,CAAC;IACxB,QAAQ,EAAE,uBAAuB,CAAC;IAClC,eAAe,EAAE,uBAAuB,CAAC;CACzC,CAAC;AAEF,eAAO,MAAM,wBAAwB,EAAE,qBAAqB,EA8C3D,CAAC"}
