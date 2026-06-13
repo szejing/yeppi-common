@@ -1,11 +1,11 @@
 ---
 name: shared-contract-update
-description: Add or change shared enums, constants, metadata, and pure utilities in wemotoo-common. Use when backend, CRM portal, and/or storefront need the same canonical value or helper.
+description: Add or change shared enums, constants, metadata, and pure utilities in yeppi-common. Use when backend, CRM portal, and/or storefront need the same canonical value or helper.
 ---
 
 # Shared Contract Update
 
-Use this skill when editing `wemotoo-common/`.
+Use this skill when editing `yeppi-common/`.
 
 ## What Belongs Here
 
@@ -31,7 +31,7 @@ Use this skill when editing `wemotoo-common/`.
    - `index.cjs.ts`
    - `index.browser.esm.ts` only when browser-safe.
 4. Run `npm run build`.
-5. Update consumers in `ecommerce-nestjs`, `wemotoo-crm-portal`, and/or `wemotoo-webapp`.
+5. Update consumers in `yeppi-ecommerce-backend`, `wemotoo-portal`, and/or `wemotoo-webapp`.
 
 ## Browser Safety
 

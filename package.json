@@ -1,5 +1,5 @@
 {
-	"name": "wemotoo-common",
+	"name": "yeppi-common",
 	"version": "1.0.0",
 	"main": "./dist/cjs/index.cjs.js",
 	"module": "./dist/esm/index.esm.js",
@@ -22,7 +22,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"description": "Wemotoo Shared Library",
+	"description": "Yeppi Shared Library",
 	"devDependencies": {
 		"@types/bun": "latest",
 		"typescript": "^6.0.3"

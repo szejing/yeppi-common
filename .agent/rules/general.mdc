@@ -2,14 +2,14 @@
 alwaysApply: true
 ---
 
-# General Coding Rules for wemotoo-common (Shared Library)
+# General Coding Rules for yeppi-common (Shared Library)
 
 ## Project Background
 
 This is a **shared TypeScript library** consumed by three application projects:
 
-1. **ecommerce-nestjs** (NestJS backend) – imports via `require` (CJS) and `import` (ESM)
-2. **wemotoo-crm-portal** (Nuxt admin portal) – imports via ESM (browser + server)
+1. **yeppi-ecommerce-backend** (NestJS backend) – imports via `require` (CJS) and `import` (ESM)
+2. **wemotoo-portal** (Nuxt admin portal) – imports via ESM (browser + server)
 3. **wemotoo-webapp** (Nuxt user-facing app) – imports via ESM (browser + server)
 
 Any code added here must be **isomorphic** and work in both Node.js and browser environments unless explicitly placed in a Node-only or browser-only entry point.
@@ -17,7 +17,7 @@ Any code added here must be **isomorphic** and work in both Node.js and browser 
 ## Project Structure
 
 ```
-wemotoo-common/
+yeppi-common/
 ├── index.esm.ts              # ESM entry (server-side: Node)
 ├── index.browser.esm.ts      # ESM entry (browser: no Node APIs e.g. crypto)
 ├── index.cjs.ts              # CJS entry (NestJS backend)
@@ -158,7 +158,7 @@ This library should have as few dependencies as possible. Current dependencies:
 
 ## What Belongs Here vs. in Individual Projects
 
-### ✅ PUT in wemotoo-common
+### ✅ PUT in yeppi-common
 - Enums used by 2+ projects (e.g. `OrderStatus`, `ProductType`, `UserRoles`)
 - Constants used by 2+ projects (e.g. API paths, key names, setting codes)
 - Pure utility functions used by 2+ projects (e.g. date formatting, string helpers)

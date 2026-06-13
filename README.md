@@ -1,6 +1,6 @@
 # Yeppi-common
 
-This is Wemotoo Shared Library
+This is Yeppi Shared Library
 
 # usage
 
