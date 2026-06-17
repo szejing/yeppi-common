@@ -9,5 +9,6 @@ export declare const GROUP_CODE: {
     REPORT: string;
     PRODUCT: string;
     FIUU: string;
+    STRIPE: string;
     APPOINTMENT: string;
 };

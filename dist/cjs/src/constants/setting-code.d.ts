@@ -51,4 +51,8 @@ export declare const FIUU: {
     S_KEY: string;
     USE_EXT_FORMAT: string;
 };
+export declare const STRIPE: {
+    SECRET_KEY: string;
+    WEBHOOK_SECRET: string;
+};
 //# sourceMappingURL=setting-code.d.ts.map

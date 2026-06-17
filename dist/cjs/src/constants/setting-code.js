@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
+exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
 exports.MERCHANT = {
     ID: 'MerchantId',
     NAME: 'MerchantName',
@@ -53,4 +53,8 @@ exports.FIUU = {
     V_KEY: 'FiuuVKey',
     S_KEY: 'FiuuSKey',
     USE_EXT_FORMAT: 'FiuuExtFormat',
+};
+exports.STRIPE = {
+    SECRET_KEY: 'StripeSecretKey',
+    WEBHOOK_SECRET: 'StripeWebhookSecret',
 };

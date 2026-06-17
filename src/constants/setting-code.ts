@@ -56,3 +56,8 @@ export const FIUU = {
 	S_KEY: 'FiuuSKey',
 	USE_EXT_FORMAT: 'FiuuExtFormat',
 };
+
+export const STRIPE = {
+	SECRET_KEY: 'StripeSecretKey',
+	WEBHOOK_SECRET: 'StripeWebhookSecret',
+};
