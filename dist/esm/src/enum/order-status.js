@@ -11,6 +11,17 @@ export var OrderStatus;
     OrderStatus["REFUNDED"] = "refunded";
     OrderStatus["REQUIRES_ACTION"] = "requires_action";
 })(OrderStatus || (OrderStatus = {}));
-// new | completed | cancelled | refunded | requires_action
-// PENDING -> PAID | PROCESSING -> … -> COMPLETED / SHIPPED / DELIVERED
-// COMPLETED -> CANCELLED -> REFUNDED
+export const ORDER_STATUS_COLORS = {
+    [OrderStatus.PENDING_PAYMENT]: 'info',
+    [OrderStatus.PAID]: 'info',
+    [OrderStatus.PROCESSING]: 'info',
+    [OrderStatus.SHIPPED]: 'primary',
+    [OrderStatus.DELIVERED]: 'success',
+    [OrderStatus.COMPLETED]: 'success',
+    [OrderStatus.CANCELLED]: 'error',
+    [OrderStatus.REFUNDED]: 'error',
+    [OrderStatus.REQUIRES_ACTION]: 'warning',
+};
+export function getOrderStatusColor(status) {
+    return ORDER_STATUS_COLORS[status];
+}

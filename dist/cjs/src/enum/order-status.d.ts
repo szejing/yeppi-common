@@ -10,4 +10,7 @@ export declare enum OrderStatus {
     REFUNDED = "refunded",
     REQUIRES_ACTION = "requires_action"
 }
+export type UiBadgeColor = 'primary' | 'error' | 'success' | 'warning' | 'secondary' | 'info' | 'neutral';
+export declare const ORDER_STATUS_COLORS: Record<OrderStatus, UiBadgeColor>;
+export declare function getOrderStatusColor(status: OrderStatus | string): UiBadgeColor | undefined;
 //# sourceMappingURL=order-status.d.ts.map

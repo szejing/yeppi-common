@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.OrderStatus = void 0;
+exports.ORDER_STATUS_COLORS = exports.OrderStatus = void 0;
+exports.getOrderStatusColor = getOrderStatusColor;
 var OrderStatus;
 (function (OrderStatus) {
     OrderStatus["PENDING_PAYMENT"] = "pending_payment";
@@ -14,6 +15,17 @@ var OrderStatus;
     OrderStatus["REFUNDED"] = "refunded";
     OrderStatus["REQUIRES_ACTION"] = "requires_action";
 })(OrderStatus || (exports.OrderStatus = OrderStatus = {}));
-// new | completed | cancelled | refunded | requires_action
-// PENDING -> PAID | PROCESSING -> … -> COMPLETED / SHIPPED / DELIVERED
-// COMPLETED -> CANCELLED -> REFUNDED
+exports.ORDER_STATUS_COLORS = {
+    [OrderStatus.PENDING_PAYMENT]: 'info',
+    [OrderStatus.PAID]: 'info',
+    [OrderStatus.PROCESSING]: 'info',
+    [OrderStatus.SHIPPED]: 'primary',
+    [OrderStatus.DELIVERED]: 'success',
+    [OrderStatus.COMPLETED]: 'success',
+    [OrderStatus.CANCELLED]: 'error',
+    [OrderStatus.REFUNDED]: 'error',
+    [OrderStatus.REQUIRES_ACTION]: 'warning',
+};
+function getOrderStatusColor(status) {
+    return exports.ORDER_STATUS_COLORS[status];
+}
