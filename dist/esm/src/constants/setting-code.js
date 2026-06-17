@@ -33,6 +33,7 @@ export const GENERAL = {
     MAX_PRODUCTS: 'MaxProducts',
     MERCHANT_ID: 'MerchantId',
     HOST_URL: 'HostUrl',
+    SECRET_KEY: 'SecretKey',
 };
 export const ORDER = {
     PREFIX_ORDER_NO: 'PrefixOrderNo',
@@ -52,6 +53,5 @@ export const FIUU = {
     USE_EXT_FORMAT: 'FiuuExtFormat',
 };
 export const STRIPE = {
-    SECRET_KEY: 'StripeSecretKey',
     WEBHOOK_SECRET: 'StripeWebhookSecret',
 };

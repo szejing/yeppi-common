@@ -36,6 +36,7 @@ exports.GENERAL = {
     MAX_PRODUCTS: 'MaxProducts',
     MERCHANT_ID: 'MerchantId',
     HOST_URL: 'HostUrl',
+    SECRET_KEY: 'SecretKey',
 };
 exports.ORDER = {
     PREFIX_ORDER_NO: 'PrefixOrderNo',
@@ -55,6 +56,5 @@ exports.FIUU = {
     USE_EXT_FORMAT: 'FiuuExtFormat',
 };
 exports.STRIPE = {
-    SECRET_KEY: 'StripeSecretKey',
     WEBHOOK_SECRET: 'StripeWebhookSecret',
 };

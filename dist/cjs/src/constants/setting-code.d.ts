@@ -33,6 +33,7 @@ export declare const GENERAL: {
     MAX_PRODUCTS: string;
     MERCHANT_ID: string;
     HOST_URL: string;
+    SECRET_KEY: string;
 };
 export declare const ORDER: {
     PREFIX_ORDER_NO: string;
@@ -52,7 +53,6 @@ export declare const FIUU: {
     USE_EXT_FORMAT: string;
 };
 export declare const STRIPE: {
-    SECRET_KEY: string;
     WEBHOOK_SECRET: string;
 };
 //# sourceMappingURL=setting-code.d.ts.map
