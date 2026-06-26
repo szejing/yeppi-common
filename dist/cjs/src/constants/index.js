@@ -23,3 +23,4 @@ __exportStar(require("./api-path"), exports);
 __exportStar(require("./callback-provider"), exports);
 __exportStar(require("./default-relations"), exports);
 __exportStar(require("./customer-insight"), exports);
+__exportStar(require("./merchant-platform"), exports);

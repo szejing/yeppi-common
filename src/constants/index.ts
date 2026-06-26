@@ -7,3 +7,4 @@ export * from './api-path';
 export * from './callback-provider';
 export * from './default-relations';
 export * from './customer-insight';
+export * from './merchant-platform';
