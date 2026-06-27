@@ -36,4 +36,5 @@ export declare const API_PATH: {
     SHIPPING_ZONES: string;
     SHIPMENT: string;
     VOUCHERS: string;
+    REASONS: string;
 };

@@ -39,4 +39,5 @@ exports.API_PATH = {
     SHIPPING_ZONES: 'shipping-zones',
     SHIPMENT: 'shipment',
     VOUCHERS: 'vouchers',
+    REASONS: 'reasons',
 };

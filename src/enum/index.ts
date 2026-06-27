@@ -37,3 +37,4 @@ export * from './filter-condition';
 export * from './subs-duration';
 export * from './commission-type';
 export * from './customer-insight';
+export * from './reason-type';

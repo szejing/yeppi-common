@@ -50,3 +50,4 @@ __exportStar(require("./filter-condition"), exports);
 __exportStar(require("./subs-duration"), exports);
 __exportStar(require("./commission-type"), exports);
 __exportStar(require("./customer-insight"), exports);
+__exportStar(require("./reason-type"), exports);
