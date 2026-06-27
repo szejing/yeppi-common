@@ -1,1 +1,1 @@
-{"version":3,"file":"reason-type.d.ts","sourceRoot":"","sources":["../../../../src/enum/reason-type.ts"],"names":[],"mappings":"AAAA,oBAAY,UAAU;IACpB,eAAe,oBAAoB;IACnC,YAAY,iBAAiB;CAC9B"}
+{"version":3,"file":"reason-type.d.ts","sourceRoot":"","sources":["../../../../src/enum/reason-type.ts"],"names":[],"mappings":"AAAA,oBAAY,UAAU;IACpB,eAAe,oBAAoB;IACnC,aAAa,kBAAkB;IAC/B,YAAY,iBAAiB;CAC9B"}
