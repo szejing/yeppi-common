@@ -51,7 +51,9 @@ export declare const FIUU: {
     V_KEY: string;
     S_KEY: string;
     USE_EXT_FORMAT: string;
+    AUTO_REFUND: string;
 };
 export declare const STRIPE: {
     WEBHOOK_SECRET: string;
+    AUTO_REFUND: string;
 };

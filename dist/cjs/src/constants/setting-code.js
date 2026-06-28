@@ -54,7 +54,9 @@ exports.FIUU = {
     V_KEY: 'FiuuVKey',
     S_KEY: 'FiuuSKey',
     USE_EXT_FORMAT: 'FiuuExtFormat',
+    AUTO_REFUND: 'FiuuAutoRefund',
 };
 exports.STRIPE = {
     WEBHOOK_SECRET: 'StripeWebhookSecret',
+    AUTO_REFUND: 'StripeAutoRefund',
 };

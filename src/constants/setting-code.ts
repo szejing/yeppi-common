@@ -56,8 +56,10 @@ export const FIUU = {
 	V_KEY: 'FiuuVKey',
 	S_KEY: 'FiuuSKey',
 	USE_EXT_FORMAT: 'FiuuExtFormat',
+	AUTO_REFUND: 'FiuuAutoRefund',
 };
 
 export const STRIPE = {
 	WEBHOOK_SECRET: 'StripeWebhookSecret',
+	AUTO_REFUND: 'StripeAutoRefund',
 };
