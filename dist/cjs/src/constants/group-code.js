@@ -14,4 +14,5 @@ exports.GROUP_CODE = {
     FIUU: 'Fiuu',
     STRIPE: 'Stripe',
     APPOINTMENT: 'Appointment',
+    EMAIL: 'Email',
 };

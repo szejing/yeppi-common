@@ -57,3 +57,12 @@ export declare const STRIPE: {
     WEBHOOK_SECRET: string;
     AUTO_REFUND: string;
 };
+export declare const EMAIL: {
+    INVOICE: string;
+    RECEIPT: string;
+    REFUND: string;
+    CANCEL: string;
+    APPOINTMENT: string;
+    WELCOME: string;
+    ORDER_CONFIRMATION: string;
+};

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
+exports.EMAIL = exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
 exports.MERCHANT = {
     ID: 'MerchantId',
     NAME: 'MerchantName',
@@ -59,4 +59,13 @@ exports.FIUU = {
 exports.STRIPE = {
     WEBHOOK_SECRET: 'StripeWebhookSecret',
     AUTO_REFUND: 'StripeAutoRefund',
+};
+exports.EMAIL = {
+    INVOICE: 'SEND_INVOICE',
+    RECEIPT: 'SEND_RECEIPT',
+    REFUND: 'SEND_REFUND',
+    CANCEL: 'SEND_CANCEL',
+    APPOINTMENT: 'SEND_APPOINTMENT',
+    WELCOME: 'SEND_WELCOME',
+    ORDER_CONFIRMATION: 'SEND_ORDER_CONFIRMATION',
 };

@@ -11,5 +11,6 @@ export declare const GROUP_CODE: {
     FIUU: string;
     STRIPE: string;
     APPOINTMENT: string;
+    EMAIL: string;
 };
 //# sourceMappingURL=group-code.d.ts.map

@@ -11,4 +11,5 @@ export declare const GROUP_CODE: {
     FIUU: string;
     STRIPE: string;
     APPOINTMENT: string;
+    EMAIL: string;
 };
