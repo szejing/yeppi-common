@@ -5,7 +5,7 @@ exports.getOrderStatusColor = getOrderStatusColor;
 var OrderStatus;
 (function (OrderStatus) {
     OrderStatus["PENDING_PAYMENT"] = "pending_payment";
-    /** Paid, awaiting fulfillment / ops (CRM fulfillment phase 1). */
+    OrderStatus["CONFIRMED"] = "confirmed";
     OrderStatus["PAID"] = "paid";
     OrderStatus["PROCESSING"] = "processing";
     OrderStatus["SHIPPED"] = "shipped";
@@ -17,6 +17,7 @@ var OrderStatus;
 })(OrderStatus || (exports.OrderStatus = OrderStatus = {}));
 exports.ORDER_STATUS_COLORS = {
     [OrderStatus.PENDING_PAYMENT]: 'info',
+    [OrderStatus.CONFIRMED]: 'info',
     [OrderStatus.PAID]: 'info',
     [OrderStatus.PROCESSING]: 'info',
     [OrderStatus.SHIPPED]: 'primary',

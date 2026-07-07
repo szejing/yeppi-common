@@ -1,6 +1,6 @@
 export declare enum OrderStatus {
     PENDING_PAYMENT = "pending_payment",
-    /** Paid, awaiting fulfillment / ops (CRM fulfillment phase 1). */
+    CONFIRMED = "confirmed",
     PAID = "paid",
     PROCESSING = "processing",
     SHIPPED = "shipped",

@@ -43,6 +43,7 @@ exports.ORDER = {
     LAST_ORDER_NO: 'LastOrderNo',
     MIN_ORDER_NO_LENGTH: 'MinOrderNoLength',
     INITIAL_ORDER_NO: 'InitialOrderNo',
+    AUTO_CONFIRM_CASH_ORDER: 'AutoConfirmCashOrder',
 };
 exports.PRODUCT = {
     HIDE_LONG_DESC: 'HideLongDesc',
@@ -61,11 +62,11 @@ exports.STRIPE = {
     AUTO_REFUND: 'StripeAutoRefund',
 };
 exports.EMAIL = {
-    INVOICE: 'SEND_INVOICE',
-    RECEIPT: 'SEND_RECEIPT',
-    REFUND: 'SEND_REFUND',
-    CANCEL: 'SEND_CANCEL',
-    APPOINTMENT: 'SEND_APPOINTMENT',
-    WELCOME: 'SEND_WELCOME',
-    ORDER_CONFIRMATION: 'SEND_ORDER_CONFIRMATION',
+    INVOICE: 'SendInvoice',
+    RECEIPT: 'SendReceipt',
+    REFUND: 'SendRefund',
+    CANCEL: 'SendCancel',
+    APPOINTMENT: 'SendAppointment',
+    WELCOME: 'SendWelcome',
+    ORDER_CONFIRMATION: 'SendOrderConfirmation',
 };

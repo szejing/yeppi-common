@@ -1,6 +1,6 @@
 export enum OrderStatus {
 	PENDING_PAYMENT = 'pending_payment',
-	/** Paid, awaiting fulfillment / ops (CRM fulfillment phase 1). */
+	CONFIRMED = 'confirmed',
 	PAID = 'paid',
 	PROCESSING = 'processing',
 	SHIPPED = 'shipped',
@@ -11,17 +11,11 @@ export enum OrderStatus {
 	REQUIRES_ACTION = 'requires_action',
 }
 
-export type UiBadgeColor =
-	| 'primary'
-	| 'error'
-	| 'success'
-	| 'warning'
-	| 'secondary'
-	| 'info'
-	| 'neutral';
+export type UiBadgeColor = 'primary' | 'error' | 'success' | 'warning' | 'secondary' | 'info' | 'neutral';
 
 export const ORDER_STATUS_COLORS: Record<OrderStatus, UiBadgeColor> = {
 	[OrderStatus.PENDING_PAYMENT]: 'info',
+	[OrderStatus.CONFIRMED]: 'info',
 	[OrderStatus.PAID]: 'info',
 	[OrderStatus.PROCESSING]: 'info',
 	[OrderStatus.SHIPPED]: 'primary',
