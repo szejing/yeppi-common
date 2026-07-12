@@ -1,8 +1,14 @@
+/**
+ * Merchant/customer workflow timeline for orders.
+ * Payment truth lives in {@link PaymentStatus}; warehouse steps in
+ * {@link FulfillmentLifecycleStatus}; courier steps in {@link ShipmentStatus}.
+ */
 export enum OrderStatus {
 	PENDING_PAYMENT = 'pending_payment',
 	CONFIRMED = 'confirmed',
 	PAID = 'paid',
 	PROCESSING = 'processing',
+	READY_FOR_PICKUP = 'ready_for_pickup',
 	SHIPPED = 'shipped',
 	DELIVERED = 'delivered',
 	COMPLETED = 'completed',
@@ -18,6 +24,7 @@ export const ORDER_STATUS_COLORS: Record<OrderStatus, UiBadgeColor> = {
 	[OrderStatus.CONFIRMED]: 'info',
 	[OrderStatus.PAID]: 'info',
 	[OrderStatus.PROCESSING]: 'info',
+	[OrderStatus.READY_FOR_PICKUP]: 'primary',
 	[OrderStatus.SHIPPED]: 'primary',
 	[OrderStatus.DELIVERED]: 'success',
 	[OrderStatus.COMPLETED]: 'success',

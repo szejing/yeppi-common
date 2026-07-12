@@ -1,8 +1,14 @@
+/**
+ * Merchant/customer workflow timeline for orders.
+ * Payment truth lives in {@link PaymentStatus}; warehouse steps in
+ * {@link FulfillmentLifecycleStatus}; courier steps in {@link ShipmentStatus}.
+ */
 export declare enum OrderStatus {
     PENDING_PAYMENT = "pending_payment",
     CONFIRMED = "confirmed",
     PAID = "paid",
     PROCESSING = "processing",
+    READY_FOR_PICKUP = "ready_for_pickup",
     SHIPPED = "shipped",
     DELIVERED = "delivered",
     COMPLETED = "completed",
