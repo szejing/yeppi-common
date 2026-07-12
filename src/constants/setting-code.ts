@@ -43,6 +43,7 @@ export const ORDER = {
 	MIN_ORDER_NO_LENGTH: 'MinOrderNoLength',
 	INITIAL_ORDER_NO: 'InitialOrderNo',
 	AUTO_CONFIRM_CASH_ORDER: 'AutoConfirmCashOrder',
+	ORDER_COMPLETION_VALIDATION: 'OrderCompletionValidation',
 };
 
 export const PRODUCT = {

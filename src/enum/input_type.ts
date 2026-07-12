@@ -5,4 +5,5 @@ export enum InputType {
   TEXTAREA,
   MASKEDTEXTBOX,
   GETFILENAME,
+  SELECT,
 }

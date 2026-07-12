@@ -41,6 +41,7 @@ export declare const ORDER: {
     MIN_ORDER_NO_LENGTH: string;
     INITIAL_ORDER_NO: string;
     AUTO_CONFIRM_CASH_ORDER: string;
+    ORDER_COMPLETION_VALIDATION: string;
 };
 export declare const PRODUCT: {
     HIDE_LONG_DESC: string;

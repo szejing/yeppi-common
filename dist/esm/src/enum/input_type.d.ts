@@ -4,5 +4,6 @@ export declare enum InputType {
     BOOLEAN = 2,
     TEXTAREA = 3,
     MASKEDTEXTBOX = 4,
-    GETFILENAME = 5
+    GETFILENAME = 5,
+    SELECT = 6
 }

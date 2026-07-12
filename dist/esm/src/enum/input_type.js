@@ -6,4 +6,5 @@ export var InputType;
     InputType[InputType["TEXTAREA"] = 3] = "TEXTAREA";
     InputType[InputType["MASKEDTEXTBOX"] = 4] = "MASKEDTEXTBOX";
     InputType[InputType["GETFILENAME"] = 5] = "GETFILENAME";
+    InputType[InputType["SELECT"] = 6] = "SELECT";
 })(InputType || (InputType = {}));

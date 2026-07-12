@@ -9,6 +9,7 @@ export * from './fulfillment-status';
 export * from './fulfillment-lifecycle-status';
 export * from './input_type';
 export * from './order-status';
+export * from './order-completion-validation';
 export * from './order-resend-email-action';
 export * from './order-request-type';
 export * from './order-type';
