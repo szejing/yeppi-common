@@ -73,4 +73,5 @@ export const EMAIL = {
 	APPOINTMENT: 'SendAppointment',
 	WELCOME: 'SendWelcome',
 	ORDER_CONFIRMATION: 'SendOrderConfirmation',
+	SHIPPED: 'SendShipped',
 };

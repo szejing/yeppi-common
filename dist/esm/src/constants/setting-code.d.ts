@@ -66,4 +66,5 @@ export declare const EMAIL: {
     APPOINTMENT: string;
     WELCOME: string;
     ORDER_CONFIRMATION: string;
+    SHIPPED: string;
 };
