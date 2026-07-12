@@ -39,3 +39,4 @@ export declare const extractBeforeSeparator: (str: string, separator: string) =>
  */
 export declare const removeMerchantId: (str: string) => string;
 export declare const toNullableString: (value: string | number | null | undefined) => string | null;
+export declare const normalized: (value?: string | null) => string;

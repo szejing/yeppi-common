@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toNullableString = exports.removeMerchantId = exports.extractBeforeSeparator = exports.extractAfterSeparator = exports.isEmptyOrNull = exports.truncateFront = exports.truncate = void 0;
+exports.normalized = exports.toNullableString = exports.removeMerchantId = exports.extractBeforeSeparator = exports.extractAfterSeparator = exports.isEmptyOrNull = exports.truncateFront = exports.truncate = void 0;
 /**
  * Truncates a string to a maximum length
  * @param str The string to truncate
@@ -71,3 +71,5 @@ const toNullableString = (value) => {
     return value === undefined || value === null ? null : value.toString();
 };
 exports.toNullableString = toNullableString;
+const normalized = (value) => String(value ?? '').trim();
+exports.normalized = normalized;

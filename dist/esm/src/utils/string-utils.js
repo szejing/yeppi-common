@@ -61,3 +61,4 @@ export const removeMerchantId = (str) => {
 export const toNullableString = (value) => {
     return value === undefined || value === null ? null : value.toString();
 };
+export const normalized = (value) => String(value ?? '').trim();
