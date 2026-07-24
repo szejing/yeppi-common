@@ -6,4 +6,5 @@ export enum InputType {
   MASKEDTEXTBOX,
   GETFILENAME,
   SELECT,
+  SELECT_MULTI,
 }
