@@ -71,4 +71,5 @@ exports.EMAIL = {
     WELCOME: 'SendWelcome',
     ORDER_CONFIRMATION: 'SendOrderConfirmation',
     SHIPPED: 'SendShipped',
+    ADMIN_RECEIVE_EMAIL_UPDATE: 'AdminReceiveEmailUpdate',
 };

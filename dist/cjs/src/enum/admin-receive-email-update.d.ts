@@ -1,0 +1,6 @@
+export declare enum AdminReceiveEmailUpdate {
+    NEW_ORDER = "NEW_ORDER",
+    CUSTOMER_REQUIRES_ACTION = "CUSTOMER_REQUIRES_ACTION",
+    APPOINTMENT_RESCHEDULE = "APPOINTMENT_RESCHEDULE"
+}
+//# sourceMappingURL=admin-receive-email-update.d.ts.map

@@ -5,5 +5,6 @@ export declare enum InputType {
     TEXTAREA = 3,
     MASKEDTEXTBOX = 4,
     GETFILENAME = 5,
-    SELECT = 6
+    SELECT = 6,
+    SELECT_MULTI = 7
 }

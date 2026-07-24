@@ -1,5 +1,6 @@
 // Export all enum files
 export * from './allocation-type';
+export * from './admin-receive-email-update';
 export * from './authentication-provider';
 export * from './cart-type';
 export * from './discount-condition-operator';

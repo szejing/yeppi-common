@@ -68,5 +68,6 @@ export declare const EMAIL: {
     WELCOME: string;
     ORDER_CONFIRMATION: string;
     SHIPPED: string;
+    ADMIN_RECEIVE_EMAIL_UPDATE: string;
 };
 //# sourceMappingURL=setting-code.d.ts.map
