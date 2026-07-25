@@ -9,6 +9,7 @@ exports.MERCHANT = {
     BANNER: 'Banner',
     PACKAGE: 'Package',
     ACCOUNT_STATUS: 'AccountStatus',
+    HIDE_STORE: 'HideStore',
     COMPANY_NAME: 'CompanyName',
     COMPANY_SSM: 'CompanySsm',
     COMPANY_EMAIL_ADDRESS: 'CompanyEmailAddress',

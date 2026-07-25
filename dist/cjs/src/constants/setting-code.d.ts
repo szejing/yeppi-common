@@ -6,6 +6,7 @@ export declare const MERCHANT: {
     BANNER: string;
     PACKAGE: string;
     ACCOUNT_STATUS: string;
+    HIDE_STORE: string;
     COMPANY_NAME: string;
     COMPANY_SSM: string;
     COMPANY_EMAIL_ADDRESS: string;
