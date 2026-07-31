@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EMAIL = exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
+exports.ANALYTICS = exports.EMAIL = exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
 exports.MERCHANT = {
     ID: 'MerchantId',
     NAME: 'MerchantName',
@@ -73,4 +73,7 @@ exports.EMAIL = {
     ORDER_CONFIRMATION: 'SendOrderConfirmation',
     SHIPPED: 'SendShipped',
     ADMIN_RECEIVE_EMAIL_UPDATE: 'AdminReceiveEmailUpdate',
+};
+exports.ANALYTICS = {
+    GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',
 };

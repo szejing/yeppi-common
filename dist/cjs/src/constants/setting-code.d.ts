@@ -71,4 +71,7 @@ export declare const EMAIL: {
     SHIPPED: string;
     ADMIN_RECEIVE_EMAIL_UPDATE: string;
 };
+export declare const ANALYTICS: {
+    GOOGLE_ANALYTICS_MEASUREMENT_ID: string;
+};
 //# sourceMappingURL=setting-code.d.ts.map

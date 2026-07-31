@@ -71,3 +71,6 @@ export const EMAIL = {
     SHIPPED: 'SendShipped',
     ADMIN_RECEIVE_EMAIL_UPDATE: 'AdminReceiveEmailUpdate',
 };
+export const ANALYTICS = {
+    GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',
+};
