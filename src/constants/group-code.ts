@@ -12,4 +12,5 @@ export const GROUP_CODE = {
 	STRIPE: 'Stripe',
 	APPOINTMENT: 'Appointment',
 	EMAIL: 'Email',
+	ANALYTICS: 'Analytics',
 };
