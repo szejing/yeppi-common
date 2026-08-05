@@ -24,3 +24,4 @@ __exportStar(require("./date-utils"), exports);
 __exportStar(require("./functions"), exports);
 __exportStar(require("./hash-utils"), exports);
 __exportStar(require("./ga4-measurement-id"), exports);
+__exportStar(require("./error-response"), exports);
