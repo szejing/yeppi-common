@@ -53,4 +53,34 @@ describe('getErrorResponseMessage', () => {
 		expect(getErrorResponse(new Error('network'))).toBeNull();
 		expect(getErrorResponseMessage(new Error('network'), 'Failed')).toBe('Failed');
 	});
+
+	test('does not treat ofetch FetchError wrapper as ErrorResponse', () => {
+		const fetchError = {
+			error: true,
+			url: 'http://localhost:3000/api/cart/recalculate',
+			statusCode: 400,
+			statusMessage: 'Order total must be at least 50 to apply this voucher',
+			message:
+				'[POST] "/api/cart/recalculate": 400 Order total must be at least 50 to apply this voucher',
+			data: {
+				data: {
+					error: {
+						code: 400,
+						message: 'Order total must be at least 50 to apply this voucher',
+						statusCode: 400,
+						timestamp: '2026-08-05T00:06:49.591Z',
+						path: '/api/merchant/carts/recalculate',
+						method: 'POST',
+					},
+				},
+			},
+		};
+
+		expect(getErrorResponse(fetchError)?.message).toBe(
+			'Order total must be at least 50 to apply this voucher',
+		);
+		expect(getErrorResponseMessage(fetchError, 'Failed')).toBe(
+			'Order total must be at least 50 to apply this voucher',
+		);
+	});
 });
