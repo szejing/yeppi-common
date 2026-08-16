@@ -7,6 +7,7 @@ export const MERCHANT = {
     PACKAGE: 'Package',
     ACCOUNT_STATUS: 'AccountStatus',
     HIDE_STORE: 'HideStore',
+    THEME_PRIMARY_COLOUR: 'ThemePrimaryColour',
     COMPANY_NAME: 'CompanyName',
     COMPANY_SSM: 'CompanySsm',
     COMPANY_EMAIL_ADDRESS: 'CompanyEmailAddress',
