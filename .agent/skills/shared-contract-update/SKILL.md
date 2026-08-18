@@ -31,7 +31,7 @@ Use this skill when editing `yeppi-common/`.
    - `index.cjs.ts`
    - `index.browser.esm.ts` only when browser-safe.
 4. Run `npm run build`.
-5. Update consumers in `yeppi-ecommerce-backend`, `wemotoo-portal`, and/or `wemotoo-webapp`.
+5. Update consumers in `ecommerce-backend`, `ecommerce-portal`, and/or `wemotoo-webapp`.
 
 ## Browser Safety
 

@@ -8,8 +8,8 @@ alwaysApply: true
 
 This is a **shared TypeScript library** consumed by three application projects:
 
-1. **yeppi-ecommerce-backend** (NestJS backend) – imports via `require` (CJS) and `import` (ESM)
-2. **wemotoo-portal** (Nuxt admin portal) – imports via ESM (browser + server)
+1. **ecommerce-backend** (NestJS backend) – imports via `require` (CJS) and `import` (ESM)
+2. **ecommerce-portal** (Nuxt admin portal) – imports via ESM (browser + server)
 3. **wemotoo-webapp** (Nuxt user-facing app) – imports via ESM (browser + server)
 
 Any code added here must be **isomorphic** and work in both Node.js and browser environments unless explicitly placed in a Node-only or browser-only entry point.
