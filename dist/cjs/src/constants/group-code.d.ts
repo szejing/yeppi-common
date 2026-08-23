@@ -5,7 +5,7 @@ export declare const GROUP_CODE: {
     CONTACT: string;
     CONTROL: string;
     CART: string;
-    ORDER: string;
+    SALES: string;
     REPORT: string;
     PRODUCT: string;
     FIUU: string;

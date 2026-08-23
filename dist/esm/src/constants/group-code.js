@@ -5,7 +5,7 @@ export const GROUP_CODE = {
     CONTACT: 'Contact',
     CONTROL: 'Control',
     CART: 'Cart',
-    ORDER: 'Order',
+    SALES: 'Sales',
     REPORT: 'Report',
     PRODUCT: 'Product',
     FIUU: 'Fiuu',

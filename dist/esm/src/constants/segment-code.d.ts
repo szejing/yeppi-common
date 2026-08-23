@@ -3,7 +3,6 @@ export declare const SEGMENT_CODE: {
     GENERAL: string;
     SALES_ORDER: string;
     CART: string;
-    ORDER: string;
     SALES: string;
     APPOINTMENT: string;
     REPORT: string;
