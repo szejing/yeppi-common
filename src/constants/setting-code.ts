@@ -40,10 +40,10 @@ export const GENERAL = {
 };
 
 export const ORDER = {
-	PREFIX_ORDER_NO: 'PrefixOrderNo',
-	LAST_ORDER_NO: 'LastOrderNo',
-	MIN_ORDER_NO_LENGTH: 'MinOrderNoLength',
-	INITIAL_ORDER_NO: 'InitialOrderNo',
+	PREFIX_INVOICE_NO: 'PrefixInvoiceNo',
+	LAST_INVOICE_NO: 'LastInvoiceNo',
+	MIN_INVOICE_NO_LENGTH: 'MinInvoiceNoLength',
+	INITIAL_INVOICE_NO: 'InitialInvoiceNo',
 	AUTO_CONFIRM_CASH_ORDER: 'AutoConfirmCashOrder',
 	ORDER_COMPLETION_VALIDATION: 'OrderCompletionValidation',
 };

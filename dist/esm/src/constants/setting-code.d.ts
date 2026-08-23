@@ -38,10 +38,10 @@ export declare const GENERAL: {
     SECRET_KEY: string;
 };
 export declare const ORDER: {
-    PREFIX_ORDER_NO: string;
-    LAST_ORDER_NO: string;
-    MIN_ORDER_NO_LENGTH: string;
-    INITIAL_ORDER_NO: string;
+    PREFIX_INVOICE_NO: string;
+    LAST_INVOICE_NO: string;
+    MIN_INVOICE_NO_LENGTH: string;
+    INITIAL_INVOICE_NO: string;
     AUTO_CONFIRM_CASH_ORDER: string;
     ORDER_COMPLETION_VALIDATION: string;
 };
