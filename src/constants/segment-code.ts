@@ -8,4 +8,5 @@ export const SEGMENT_CODE = {
 	REPORT: 'Report',
 	PRODUCT: 'Product',
 	EXTERNAL: 'External',
+	SOCIALMEDIA: 'SocialMedia',
 };
