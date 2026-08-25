@@ -2,6 +2,7 @@ export declare const MERCHANT: {
     ID: string;
     NAME: string;
     LOGO: string;
+    SHORT_DESC: string;
     THUMBNAIL: string;
     BANNER: string;
     PACKAGE: string;
@@ -74,5 +75,21 @@ export declare const EMAIL: {
 };
 export declare const ANALYTICS: {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: string;
+};
+export declare const SOCIALMEDIA: {
+    WHATSAPP_URL: string;
+    FACEBOOK_URL: string;
+    INSTAGRAM_URL: string;
+    TIKTOK_URL: string;
+    YOUTUBE_URL: string;
+    LINKEDIN_URL: string;
+    TWITTER_URL: string;
+    REDDIT_URL: string;
+    SNAPCHAT_URL: string;
+    TELEGRAM_URL: string;
+    LAZADA_URL: string;
+    SHOPEE_URL: string;
+    DISCORD_URL: string;
+    WEBSITE_URL: string;
 };
 //# sourceMappingURL=setting-code.d.ts.map

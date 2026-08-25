@@ -13,4 +13,5 @@ export declare const GROUP_CODE: {
     APPOINTMENT: string;
     EMAIL: string;
     ANALYTICS: string;
+    SOCIALMEDIA: string;
 };

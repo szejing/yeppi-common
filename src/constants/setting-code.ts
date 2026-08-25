@@ -2,6 +2,7 @@ export const MERCHANT = {
 	ID: 'MerchantId',
 	NAME: 'MerchantName',
 	LOGO: 'Logo',
+	SHORT_DESC: 'ShortDesc',
 	THUMBNAIL: 'Thumbnail',
 	BANNER: 'Banner',
 	PACKAGE: 'Package',
@@ -85,6 +86,7 @@ export const ANALYTICS = {
 };
 
 export const SOCIALMEDIA = {
+	WHATSAPP_URL: 'WhatsAppUrl',
 	FACEBOOK_URL: 'FacebookUrl',
 	INSTAGRAM_URL: 'InstagramUrl',
 	TIKTOK_URL: 'TikTokUrl',

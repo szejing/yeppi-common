@@ -13,4 +13,5 @@ export const GROUP_CODE = {
     APPOINTMENT: 'Appointment',
     EMAIL: 'Email',
     ANALYTICS: 'Analytics',
+    SOCIALMEDIA: 'SocialMedia',
 };

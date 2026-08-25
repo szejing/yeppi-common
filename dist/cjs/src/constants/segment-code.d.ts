@@ -8,5 +8,6 @@ export declare const SEGMENT_CODE: {
     REPORT: string;
     PRODUCT: string;
     EXTERNAL: string;
+    SOCIALMEDIA: string;
 };
 //# sourceMappingURL=segment-code.d.ts.map

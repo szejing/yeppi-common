@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ANALYTICS = exports.EMAIL = exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
+exports.SOCIALMEDIA = exports.ANALYTICS = exports.EMAIL = exports.STRIPE = exports.FIUU = exports.APPOINTMENT = exports.PRODUCT = exports.ORDER = exports.GENERAL = exports.MERCHANT = void 0;
 exports.MERCHANT = {
     ID: 'MerchantId',
     NAME: 'MerchantName',
     LOGO: 'Logo',
+    SHORT_DESC: 'ShortDesc',
     THUMBNAIL: 'Thumbnail',
     BANNER: 'Banner',
     PACKAGE: 'Package',
@@ -77,4 +78,20 @@ exports.EMAIL = {
 };
 exports.ANALYTICS = {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',
+};
+exports.SOCIALMEDIA = {
+    WHATSAPP_URL: 'WhatsAppUrl',
+    FACEBOOK_URL: 'FacebookUrl',
+    INSTAGRAM_URL: 'InstagramUrl',
+    TIKTOK_URL: 'TikTokUrl',
+    YOUTUBE_URL: 'YoutubeUrl',
+    LINKEDIN_URL: 'LinkedInUrl',
+    TWITTER_URL: 'TwitterUrl',
+    REDDIT_URL: 'RedditUrl',
+    SNAPCHAT_URL: 'SnapchatUrl',
+    TELEGRAM_URL: 'TelegramUrl',
+    LAZADA_URL: 'LazadaUrl',
+    SHOPEE_URL: 'ShopeeUrl',
+    DISCORD_URL: 'DiscordUrl',
+    WEBSITE_URL: 'WebsiteUrl',
 };

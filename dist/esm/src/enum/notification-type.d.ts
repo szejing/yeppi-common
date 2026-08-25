@@ -6,7 +6,8 @@ export declare enum NotificationType {
     ORDER_STATUS_CHANGED = "order_status_changed",
     NEW_APPOINTMENT = "new_appointment",
     TODAY_APPOINTMENTS = "today_appointments",
-    APPOINTMENT_TO_RESCHEDULE = "appointment_to_reschedule"
+    APPOINTMENT_TO_RESCHEDULE = "appointment_to_reschedule",
+    PRODUCT_IMAGE_IMPORT_FAILED = "product_image_import_failed"
 }
 export declare enum NotificationSeverity {
     INFO = "info",

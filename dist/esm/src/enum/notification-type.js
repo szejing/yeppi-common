@@ -8,6 +8,7 @@ export var NotificationType;
     NotificationType["NEW_APPOINTMENT"] = "new_appointment";
     NotificationType["TODAY_APPOINTMENTS"] = "today_appointments";
     NotificationType["APPOINTMENT_TO_RESCHEDULE"] = "appointment_to_reschedule";
+    NotificationType["PRODUCT_IMAGE_IMPORT_FAILED"] = "product_image_import_failed";
 })(NotificationType || (NotificationType = {}));
 export var NotificationSeverity;
 (function (NotificationSeverity) {

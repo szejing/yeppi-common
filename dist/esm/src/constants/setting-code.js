@@ -2,6 +2,7 @@ export const MERCHANT = {
     ID: 'MerchantId',
     NAME: 'MerchantName',
     LOGO: 'Logo',
+    SHORT_DESC: 'ShortDesc',
     THUMBNAIL: 'Thumbnail',
     BANNER: 'Banner',
     PACKAGE: 'Package',
@@ -74,4 +75,20 @@ export const EMAIL = {
 };
 export const ANALYTICS = {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',
+};
+export const SOCIALMEDIA = {
+    WHATSAPP_URL: 'WhatsAppUrl',
+    FACEBOOK_URL: 'FacebookUrl',
+    INSTAGRAM_URL: 'InstagramUrl',
+    TIKTOK_URL: 'TikTokUrl',
+    YOUTUBE_URL: 'YoutubeUrl',
+    LINKEDIN_URL: 'LinkedInUrl',
+    TWITTER_URL: 'TwitterUrl',
+    REDDIT_URL: 'RedditUrl',
+    SNAPCHAT_URL: 'SnapchatUrl',
+    TELEGRAM_URL: 'TelegramUrl',
+    LAZADA_URL: 'LazadaUrl',
+    SHOPEE_URL: 'ShopeeUrl',
+    DISCORD_URL: 'DiscordUrl',
+    WEBSITE_URL: 'WebsiteUrl',
 };

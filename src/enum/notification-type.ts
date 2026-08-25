@@ -7,6 +7,7 @@ export enum NotificationType {
 	NEW_APPOINTMENT = 'new_appointment',
 	TODAY_APPOINTMENTS = 'today_appointments',
 	APPOINTMENT_TO_RESCHEDULE = 'appointment_to_reschedule',
+	PRODUCT_IMAGE_IMPORT_FAILED = 'product_image_import_failed',
 }
 
 export enum NotificationSeverity {
