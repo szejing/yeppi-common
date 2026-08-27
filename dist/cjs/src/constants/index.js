@@ -24,3 +24,4 @@ __exportStar(require("./callback-provider"), exports);
 __exportStar(require("./default-relations"), exports);
 __exportStar(require("./customer-insight"), exports);
 __exportStar(require("./merchant-platform"), exports);
+__exportStar(require("./product"), exports);

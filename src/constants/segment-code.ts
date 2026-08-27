@@ -9,4 +9,6 @@ export const SEGMENT_CODE = {
 	PRODUCT: 'Product',
 	EXTERNAL: 'External',
 	SOCIALMEDIA: 'SocialMedia',
+	SHIPPING: 'Shipping',
+	EASYPARCEL: 'EasyParcel',
 };

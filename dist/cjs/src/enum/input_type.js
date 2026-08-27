@@ -11,4 +11,5 @@ var InputType;
     InputType[InputType["GETFILENAME"] = 5] = "GETFILENAME";
     InputType[InputType["SELECT"] = 6] = "SELECT";
     InputType[InputType["SELECT_MULTI"] = 7] = "SELECT_MULTI";
+    InputType[InputType["OAUTH"] = 8] = "OAUTH";
 })(InputType || (exports.InputType = InputType = {}));

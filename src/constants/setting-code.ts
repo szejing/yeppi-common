@@ -85,6 +85,14 @@ export const ANALYTICS = {
 	GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',
 };
 
+export const EASYPARCEL = {
+	CONNECTION: 'Connection',
+	COURIER_HANDOVER: 'CourierHandover',
+	DROPOFF_POINT: 'DropoffPoint',
+	ACCESS_TOKEN: 'AccessToken',
+	REFRESH_TOKEN: 'RefreshToken',
+};
+
 export const SOCIALMEDIA = {
 	WHATSAPP_URL: 'WhatsAppUrl',
 	FACEBOOK_URL: 'FacebookUrl',

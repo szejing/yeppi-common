@@ -14,4 +14,5 @@ export declare const GROUP_CODE: {
     EMAIL: string;
     ANALYTICS: string;
     SOCIALMEDIA: string;
+    EASYPARCEL: string;
 };

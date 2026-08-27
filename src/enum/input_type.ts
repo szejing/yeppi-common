@@ -7,4 +7,5 @@ export enum InputType {
   GETFILENAME,
   SELECT,
   SELECT_MULTI,
+  OAUTH,
 }

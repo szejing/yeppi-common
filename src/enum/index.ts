@@ -10,6 +10,8 @@ export * from './discount-type';
 export * from './fulfillment-status';
 export * from './fulfillment-lifecycle-status';
 export * from './input_type';
+export * from './courier-handover';
+export * from './courier-booking-provider';
 export * from './order-status';
 export * from './order-completion-validation';
 export * from './order-resend-email-action';
@@ -37,6 +39,7 @@ export * from './notification-type';
 export * from './amount-type';
 export * from './filter-operator';
 export * from './filter-condition';
+export * from './shipping-zone-condition-field';
 
 export * from './subs-duration';
 export * from './commission-type';

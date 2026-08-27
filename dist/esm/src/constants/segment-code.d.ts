@@ -9,4 +9,6 @@ export declare const SEGMENT_CODE: {
     PRODUCT: string;
     EXTERNAL: string;
     SOCIALMEDIA: string;
+    SHIPPING: string;
+    EASYPARCEL: string;
 };

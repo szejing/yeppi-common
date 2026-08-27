@@ -14,4 +14,5 @@ export const GROUP_CODE = {
     EMAIL: 'Email',
     ANALYTICS: 'Analytics',
     SOCIALMEDIA: 'SocialMedia',
+    EASYPARCEL: 'EasyParcel',
 };

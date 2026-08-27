@@ -76,6 +76,13 @@ export declare const EMAIL: {
 export declare const ANALYTICS: {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: string;
 };
+export declare const EASYPARCEL: {
+    CONNECTION: string;
+    COURIER_HANDOVER: string;
+    DROPOFF_POINT: string;
+    ACCESS_TOKEN: string;
+    REFRESH_TOKEN: string;
+};
 export declare const SOCIALMEDIA: {
     WHATSAPP_URL: string;
     FACEBOOK_URL: string;

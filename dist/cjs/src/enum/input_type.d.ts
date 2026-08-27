@@ -6,6 +6,7 @@ export declare enum InputType {
     MASKEDTEXTBOX = 4,
     GETFILENAME = 5,
     SELECT = 6,
-    SELECT_MULTI = 7
+    SELECT_MULTI = 7,
+    OAUTH = 8
 }
 //# sourceMappingURL=input_type.d.ts.map
