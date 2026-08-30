@@ -48,6 +48,8 @@ export declare const ORDER: {
 };
 export declare const PRODUCT: {
     HIDE_LONG_DESC: string;
+    PRODUCT_LINE_IDENTITY: string;
+    VARIANT_LINE_IDENTITY: string;
 };
 export declare const APPOINTMENT: {
     AUTO_CONFIRM: string;

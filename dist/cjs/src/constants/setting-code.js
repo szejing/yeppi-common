@@ -51,6 +51,8 @@ exports.ORDER = {
 };
 exports.PRODUCT = {
     HIDE_LONG_DESC: 'HideLongDesc',
+    PRODUCT_LINE_IDENTITY: 'ProductLineIdentity',
+    VARIANT_LINE_IDENTITY: 'VariantLineIdentity',
 };
 exports.APPOINTMENT = {
     AUTO_CONFIRM: 'AutoConfirm',

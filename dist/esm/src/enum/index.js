@@ -23,6 +23,8 @@ export * from './payment-status';
 export * from './price-list-status';
 export * from './price-list-type';
 export * from './product-status';
+export * from './product-line-identity';
+export * from './variant-line-identity';
 export * from './shipping-option-price-type';
 export * from './shipping-requirement-type';
 export * from './status';

@@ -48,6 +48,8 @@ export const ORDER = {
 };
 export const PRODUCT = {
     HIDE_LONG_DESC: 'HideLongDesc',
+    PRODUCT_LINE_IDENTITY: 'ProductLineIdentity',
+    VARIANT_LINE_IDENTITY: 'VariantLineIdentity',
 };
 export const APPOINTMENT = {
     AUTO_CONFIRM: 'AutoConfirm',

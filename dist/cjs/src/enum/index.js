@@ -39,6 +39,8 @@ __exportStar(require("./payment-status"), exports);
 __exportStar(require("./price-list-status"), exports);
 __exportStar(require("./price-list-type"), exports);
 __exportStar(require("./product-status"), exports);
+__exportStar(require("./product-line-identity"), exports);
+__exportStar(require("./variant-line-identity"), exports);
 __exportStar(require("./shipping-option-price-type"), exports);
 __exportStar(require("./shipping-requirement-type"), exports);
 __exportStar(require("./status"), exports);
