@@ -3,6 +3,7 @@ export const KEY = {
     X_SIGNATURE: 'x-signature',
     X_TIMESTAMP: 'x-timestamp',
     X_MERCHANT_ID: 'x-merchant-id',
+    X_CSRF_TOKEN: 'x-csrf-token',
     ACCESS_TOKEN: 'access-token',
     REFRESH_TOKEN: 'refresh-token',
 };

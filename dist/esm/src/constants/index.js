@@ -8,4 +8,5 @@ export * from './callback-provider';
 export * from './default-relations';
 export * from './customer-insight';
 export * from './merchant-platform';
+export * from './customer-identity';
 export * from './product';

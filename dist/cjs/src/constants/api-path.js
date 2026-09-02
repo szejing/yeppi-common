@@ -26,6 +26,7 @@ exports.API_PATH = {
     PAYMENT_TYPE_GROUPS: 'payment-type-groups',
     PAYMENT_METHODS: 'payment-methods',
     CUSTOMERS: 'customers',
+    CUSTOMER: 'customer',
     APPOINTMENTS: 'appointments',
     OUTLETS: 'outlets',
     TAXES: 'taxes',
