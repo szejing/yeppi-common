@@ -10,3 +10,4 @@ export * from './customer-insight';
 export * from './merchant-platform';
 export * from './customer-identity';
 export * from './product';
+export * from './malaysia-states';

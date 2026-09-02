@@ -36,6 +36,8 @@ export declare const API_PATH: {
     SHIPPING_METHODS: string;
     SHIPPING_ZONES: string;
     SHIPMENT: string;
+    OAUTH: string;
+    WEBHOOK: string;
     EASYPARCEL: string;
     VOUCHERS: string;
     REASONS: string;

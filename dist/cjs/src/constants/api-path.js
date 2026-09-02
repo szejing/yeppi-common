@@ -39,6 +39,8 @@ exports.API_PATH = {
     SHIPPING_METHODS: 'shipping-methods',
     SHIPPING_ZONES: 'shipping-zones',
     SHIPMENT: 'shipment',
+    OAUTH: 'oauth',
+    WEBHOOK: 'webhook',
     EASYPARCEL: 'easyparcel',
     VOUCHERS: 'vouchers',
     REASONS: 'reasons',

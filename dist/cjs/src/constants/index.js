@@ -26,3 +26,4 @@ __exportStar(require("./customer-insight"), exports);
 __exportStar(require("./merchant-platform"), exports);
 __exportStar(require("./customer-identity"), exports);
 __exportStar(require("./product"), exports);
+__exportStar(require("./malaysia-states"), exports);
