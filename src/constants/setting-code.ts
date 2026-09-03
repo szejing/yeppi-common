@@ -53,6 +53,7 @@ export const PRODUCT = {
 	HIDE_LONG_DESC: 'HideLongDesc',
 	PRODUCT_LINE_IDENTITY: 'ProductLineIdentity',
 	VARIANT_LINE_IDENTITY: 'VariantLineIdentity',
+	PURGE_DELETED_CATALOG_MEDIA: 'PurgeDeletedCatalogMedia',
 };
 
 export const APPOINTMENT = {
