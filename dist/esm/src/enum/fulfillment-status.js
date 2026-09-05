@@ -10,3 +10,17 @@ export var FulfillmentStatus;
     FulfillmentStatus["CANCELED"] = "canceled";
     FulfillmentStatus["REQUIRES_ACTION"] = "requires_action";
 })(FulfillmentStatus || (FulfillmentStatus = {}));
+export const FULFILLMENT_STATUS_COLORS = {
+    [FulfillmentStatus.NOT_FULFILLED]: 'warning',
+    [FulfillmentStatus.PARTIALLY_FULFILLED]: 'info',
+    [FulfillmentStatus.FULFILLED]: 'success',
+    [FulfillmentStatus.PARTIALLY_SHIPPED]: 'info',
+    [FulfillmentStatus.SHIPPED]: 'primary',
+    [FulfillmentStatus.PARTIALLY_RETURNED]: 'warning',
+    [FulfillmentStatus.RETURNED]: 'error',
+    [FulfillmentStatus.CANCELED]: 'error',
+    [FulfillmentStatus.REQUIRES_ACTION]: 'warning',
+};
+export function getFulfillmentStatusColor(status) {
+    return FULFILLMENT_STATUS_COLORS[status];
+}

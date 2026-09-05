@@ -54,6 +54,8 @@ export const PRODUCT = {
 	PRODUCT_LINE_IDENTITY: 'ProductLineIdentity',
 	VARIANT_LINE_IDENTITY: 'VariantLineIdentity',
 	PURGE_DELETED_CATALOG_MEDIA: 'PurgeDeletedCatalogMedia',
+	PRE_ORDER_MESSAGE: 'PreOrderMessage',
+	THRESHOLD_SHOW_STOCK_BALANCE: 'ThresholdShowStockBalance',
 };
 
 export const APPOINTMENT = {

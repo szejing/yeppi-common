@@ -1,3 +1,4 @@
+import type { UiBadgeColor } from './order-status';
 /**
  * Warehouse-style fulfillment steps for CRM Phase 1.
  * Distinct from {@link FulfillmentStatus} (legacy line-level / provider states).
@@ -8,4 +9,6 @@ export declare enum FulfillmentLifecycleStatus {
     PACKED = "packed",
     FULFILLED = "fulfilled"
 }
+export declare const FULFILLMENT_LIFECYCLE_STATUS_COLORS: Record<FulfillmentLifecycleStatus, UiBadgeColor>;
+export declare function getFulfillmentLifecycleStatusColor(status: FulfillmentLifecycleStatus | string): UiBadgeColor | undefined;
 //# sourceMappingURL=fulfillment-lifecycle-status.d.ts.map

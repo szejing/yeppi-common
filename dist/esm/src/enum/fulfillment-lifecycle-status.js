@@ -9,3 +9,12 @@ export var FulfillmentLifecycleStatus;
     FulfillmentLifecycleStatus["PACKED"] = "packed";
     FulfillmentLifecycleStatus["FULFILLED"] = "fulfilled";
 })(FulfillmentLifecycleStatus || (FulfillmentLifecycleStatus = {}));
+export const FULFILLMENT_LIFECYCLE_STATUS_COLORS = {
+    [FulfillmentLifecycleStatus.PENDING]: 'warning',
+    [FulfillmentLifecycleStatus.PROCESSING]: 'info',
+    [FulfillmentLifecycleStatus.PACKED]: 'primary',
+    [FulfillmentLifecycleStatus.FULFILLED]: 'success',
+};
+export function getFulfillmentLifecycleStatusColor(status) {
+    return FULFILLMENT_LIFECYCLE_STATUS_COLORS[status];
+}

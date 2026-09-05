@@ -50,6 +50,9 @@ export declare const PRODUCT: {
     HIDE_LONG_DESC: string;
     PRODUCT_LINE_IDENTITY: string;
     VARIANT_LINE_IDENTITY: string;
+    PURGE_DELETED_CATALOG_MEDIA: string;
+    PRE_ORDER_MESSAGE: string;
+    THRESHOLD_SHOW_STOCK_BALANCE: string;
 };
 export declare const APPOINTMENT: {
     AUTO_CONFIRM: string;

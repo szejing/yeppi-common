@@ -43,13 +43,6 @@ const MALAYSIA_SUBDIVISION_ALIASES = {
     ...MALAYSIA_STATE_TO_SUBDIVISION,
     Malacca: 'MY-04',
     Penang: 'MY-07',
-    'Penang (Pulau Pinang)': 'MY-07',
-    'WP Kuala Lumpur': 'MY-14',
-    'WP Labuan': 'MY-15',
-    'WP Putrajaya': 'MY-16',
-    'Wilayah Persekutuan Kuala Lumpur': 'MY-14',
-    'Wilayah Persekutuan Labuan': 'MY-15',
-    'Wilayah Persekutuan Putrajaya': 'MY-16',
 };
 export function resolveMalaysiaSubdivisionCode(state) {
     const trimmed = (state ?? '').trim();

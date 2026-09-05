@@ -1,3 +1,4 @@
+import type { UiBadgeColor } from './order-status';
 export declare enum ShipmentStatus {
     PENDING = "pending",
     SHIPPED = "shipped",
@@ -5,3 +6,5 @@ export declare enum ShipmentStatus {
     DELIVERED = "delivered",
     FAILED = "failed"
 }
+export declare const SHIPMENT_STATUS_COLORS: Record<ShipmentStatus, UiBadgeColor>;
+export declare function getShipmentStatusColor(status: ShipmentStatus | string): UiBadgeColor | undefined;
