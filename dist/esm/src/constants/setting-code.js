@@ -75,6 +75,7 @@ export const EMAIL = {
     APPOINTMENT: 'SendAppointment',
     WELCOME: 'SendWelcome',
     ORDER_CONFIRMATION: 'SendOrderConfirmation',
+    PENDING_PAYMENT: 'SendPendingPayment',
     SHIPPED: 'SendShipped',
     ADMIN_RECEIVE_EMAIL_UPDATE: 'AdminReceiveEmailUpdate',
 };
