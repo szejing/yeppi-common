@@ -77,6 +77,7 @@ export declare const EMAIL: {
     APPOINTMENT: string;
     WELCOME: string;
     ORDER_CONFIRMATION: string;
+    PENDING_PAYMENT: string;
     SHIPPED: string;
     ADMIN_RECEIVE_EMAIL_UPDATE: string;
 };
