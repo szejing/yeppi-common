@@ -8,6 +8,8 @@ export const MERCHANT = {
     PACKAGE: 'Package',
     ACCOUNT_STATUS: 'AccountStatus',
     HIDE_STORE: 'HideStore',
+    STORE_HANDLE: 'StoreHandle',
+    STORE_HANDLE_LOCKED: 'StoreHandleLocked',
     THEME_PRIMARY_COLOUR: 'ThemePrimaryColour',
     COMPANY_NAME: 'CompanyName',
     COMPANY_SSM: 'CompanySsm',

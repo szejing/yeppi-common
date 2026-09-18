@@ -9,3 +9,4 @@ export * from './functions';
 export * from './hash-utils';
 export * from './ga4-measurement-id';
 export * from './error-response';
+export * from './store-handle';
