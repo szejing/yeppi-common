@@ -71,3 +71,14 @@ export const toNullableString = (value: string | number | null | undefined): str
 };
 
 export const normalized = (value?: string | null): string => String(value ?? '').trim();
+
+/**
+ * Canonical country calling code for storage/lookup: digits only (e.g. "60").
+ * Strips a leading "+" and any non-digit characters.
+ */
+export const normalizeDialCode = (value?: string | null): string =>
+	String(value ?? '')
+		.trim()
+		.replace(/^\+/, '')
+		.replace(/\D/g, '');
+

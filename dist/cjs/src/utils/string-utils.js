@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.normalized = exports.toNullableString = exports.removeMerchantId = exports.extractBeforeSeparator = exports.extractAfterSeparator = exports.isEmptyOrNull = exports.truncateFront = exports.truncate = void 0;
+exports.normalizeDialCode = exports.normalized = exports.toNullableString = exports.removeMerchantId = exports.extractBeforeSeparator = exports.extractAfterSeparator = exports.isEmptyOrNull = exports.truncateFront = exports.truncate = void 0;
 /**
  * Truncates a string to a maximum length
  * @param str The string to truncate
@@ -73,3 +73,12 @@ const toNullableString = (value) => {
 exports.toNullableString = toNullableString;
 const normalized = (value) => String(value ?? '').trim();
 exports.normalized = normalized;
+/**
+ * Canonical country calling code for storage/lookup: digits only (e.g. "60").
+ * Strips a leading "+" and any non-digit characters.
+ */
+const normalizeDialCode = (value) => String(value ?? '')
+    .trim()
+    .replace(/^\+/, '')
+    .replace(/\D/g, '');
+exports.normalizeDialCode = normalizeDialCode;
