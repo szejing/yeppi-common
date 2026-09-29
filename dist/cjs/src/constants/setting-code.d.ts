@@ -8,6 +8,8 @@ export declare const MERCHANT: {
     PACKAGE: string;
     ACCOUNT_STATUS: string;
     HIDE_STORE: string;
+    HIDE_STORE_ADDRESS: string;
+    HIDE_STORE_EMAIL: string;
     STORE_HANDLE: string;
     STORE_HANDLE_LOCKED: string;
     THEME_PRIMARY_COLOUR: string;
