@@ -21,6 +21,7 @@ export * from './payment-status';
 export * from './price-list-status';
 export * from './price-list-type';
 export * from './product-status';
+export * from './product-composition';
 export * from './product-line-identity';
 export * from './variant-line-identity';
 export * from './shipping-option-price-type';
