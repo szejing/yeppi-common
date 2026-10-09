@@ -49,6 +49,7 @@ __exportStar(require("./user-role"), exports);
 __exportStar(require("./product-type"), exports);
 __exportStar(require("./filter-type"), exports);
 __exportStar(require("./order-item-status"), exports);
+__exportStar(require("./line-type"), exports);
 __exportStar(require("./payment-method-type"), exports);
 __exportStar(require("./appointment-status"), exports);
 __exportStar(require("./notification-type"), exports);
