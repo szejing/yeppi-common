@@ -53,6 +53,7 @@ __exportStar(require("./line-type"), exports);
 __exportStar(require("./payment-method-type"), exports);
 __exportStar(require("./appointment-status"), exports);
 __exportStar(require("./notification-type"), exports);
+__exportStar(require("./platform-announcement"), exports);
 __exportStar(require("./amount-type"), exports);
 __exportStar(require("./filter-operator"), exports);
 __exportStar(require("./filter-condition"), exports);
