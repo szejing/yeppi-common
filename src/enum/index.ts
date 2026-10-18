@@ -38,6 +38,7 @@ export * from './line-type';
 export * from './payment-method-type';
 export * from './appointment-status';
 export * from './notification-type';
+export * from './platform-announcement';
 
 export * from './amount-type';
 export * from './filter-operator';

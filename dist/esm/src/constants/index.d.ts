@@ -11,3 +11,4 @@ export * from './customer-identity';
 export * from './product';
 export * from './malaysia-states';
 export * from './component-color';
+export * from './platform-login';
