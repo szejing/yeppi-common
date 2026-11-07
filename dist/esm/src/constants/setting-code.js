@@ -82,6 +82,12 @@ export const EMAIL = {
     PENDING_PAYMENT: 'SendPendingPayment',
     SHIPPED: 'SendShipped',
     ADMIN_RECEIVE_EMAIL_UPDATE: 'AdminReceiveEmailUpdate',
+    /** Optional merchant From address; empty falls back to platform MAIL_FROM. */
+    FROM_EMAIL: 'FromEmail',
+    SMTP_HOST: 'SmtpHost',
+    SMTP_PORT: 'SmtpPort',
+    SMTP_USER: 'SmtpUser',
+    SMTP_PASSWORD: 'SmtpPassword',
 };
 export const ANALYTICS = {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: 'GoogleAnalyticsMeasurementId',

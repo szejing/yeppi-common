@@ -82,6 +82,12 @@ export declare const EMAIL: {
     PENDING_PAYMENT: string;
     SHIPPED: string;
     ADMIN_RECEIVE_EMAIL_UPDATE: string;
+    /** Optional merchant From address; empty falls back to platform MAIL_FROM. */
+    FROM_EMAIL: string;
+    SMTP_HOST: string;
+    SMTP_PORT: string;
+    SMTP_USER: string;
+    SMTP_PASSWORD: string;
 };
 export declare const ANALYTICS: {
     GOOGLE_ANALYTICS_MEASUREMENT_ID: string;
