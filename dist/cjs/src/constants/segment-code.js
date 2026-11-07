@@ -14,6 +14,10 @@ exports.SEGMENT_CODE = {
     SOCIALMEDIA: 'SocialMedia',
     SHIPPING: 'Shipping',
     EASYPARCEL: 'EasyParcel',
-    /** Child of Email: outbound From + SMTP (optional; empty = platform defaults). */
+    /** Root Configuration tab for email. */
+    EMAIL: 'Email',
+    /** Child of Email: send toggles (invoice, shipped, admin alerts, …). */
+    EMAIL_NOTIFICATIONS: 'EmailNotifications',
+    /** Child of Email: From + SMTP (optional; empty = platform defaults). */
     EMAIL_OUTBOUND: 'EmailOutbound',
 };
