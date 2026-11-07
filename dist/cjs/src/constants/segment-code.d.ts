@@ -11,5 +11,7 @@ export declare const SEGMENT_CODE: {
     SOCIALMEDIA: string;
     SHIPPING: string;
     EASYPARCEL: string;
+    /** Child of Email: outbound From + SMTP (optional; empty = platform defaults). */
+    EMAIL_OUTBOUND: string;
 };
 //# sourceMappingURL=segment-code.d.ts.map

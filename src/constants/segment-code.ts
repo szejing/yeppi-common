@@ -11,4 +11,6 @@ export const SEGMENT_CODE = {
 	SOCIALMEDIA: 'SocialMedia',
 	SHIPPING: 'Shipping',
 	EASYPARCEL: 'EasyParcel',
+	/** Child of Email: outbound From + SMTP (optional; empty = platform defaults). */
+	EMAIL_OUTBOUND: 'EmailOutbound',
 };
