@@ -34,6 +34,7 @@ export * from './product-type';
 export * from './filter-type';
 export * from './order-item-status';
 export * from './line-type';
+export * from './ticket-status';
 export * from './payment-method-type';
 export * from './appointment-status';
 export * from './notification-type';

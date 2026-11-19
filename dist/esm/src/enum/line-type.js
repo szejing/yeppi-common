@@ -1,6 +1,7 @@
 /** What a cart, order, or sale line is. */
 export var LineType;
 (function (LineType) {
+    LineType["TICKET"] = "ticket";
     LineType["PRODUCT"] = "product";
     LineType["SERVICE"] = "service";
     LineType["COMBO_HEADER"] = "combo_header";
