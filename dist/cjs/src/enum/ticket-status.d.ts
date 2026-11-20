@@ -4,13 +4,4 @@ export declare enum TicketStatus {
     CHECKED_IN = "checked_in",
     CHECKED_OUT = "checked_out"
 }
-export declare enum EventStatus {
-    DRAFT = "draft",
-    PUBLISHED = "published",
-    CANCELLED = "cancelled"
-}
-export declare enum ParticipantInformationPolicy {
-    BUYER_ONLY = "buyer_only",
-    ALL_PARTICIPANTS = "all_participants"
-}
 //# sourceMappingURL=ticket-status.d.ts.map
