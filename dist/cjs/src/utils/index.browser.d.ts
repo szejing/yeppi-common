@@ -10,4 +10,5 @@ export * from './hash-utils';
 export * from './ga4-measurement-id';
 export * from './error-response';
 export * from './store-handle';
+export * from './phone-identity';
 //# sourceMappingURL=index.browser.d.ts.map
